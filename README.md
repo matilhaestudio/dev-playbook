@@ -17,6 +17,15 @@
 - Prefer to use ng-if to check view for conditionals that do not need to be rendered. It avoids angular form flickering. 
 - Use ng-show to elements that have active/inactive status. 
 
+###Controller Structure
+1. Main vars
+2. OnInit, OnExit, OnChange functions
+3. Listeners functions like $scope.$on
+4. Functions that require API Calls
+5. Toggle functions
+6. OnClick Functions
+
+
 ###Ionic
 - don't use $rootScope to set global vars. It probably will mess some state. Prefer to pass vars form one view to another using state params or using messages like $broadcast or $emit
 - modules should contain run and config functions
@@ -26,5 +35,6 @@ s
 ##Code best practices
 - Ctrl+c and Ctrl+v whenever you want. Make sure to clean and optimize the code right after it ;) 
 
-
+##UI best practices
+- Transitions between states must be as fast as possible (<1s) and loading states must be avoided except for API calls. 
 
