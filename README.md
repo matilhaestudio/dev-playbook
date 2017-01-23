@@ -30,17 +30,17 @@
 - Use ng-show to elements that have active/inactive status. 
 - Create listeners acording this pattern
 
-  ```//Listerner to toggle list from UI Manager
-  var deregisterListener = $rootScope.$on('on-toggle-filter', function(event, args) {
-    console.log("on-toggle-filter message received");
-    ctrl.currentActiveTab = args.tab;
-    ctrl.toggleFilter();
-  });
+```//Listerner to toggle list from UI Manager
+var deregisterListener = $rootScope.$on('on-toggle-filter', function(event, args) {
+console.log("on-toggle-filter message received");
+ctrl.currentActiveTab = args.tab;
+ctrl.toggleFilter();
+});
 
-  ctrl.$onDestroy = function() {
-    console.log('on destroy filter controller');
-    deregisterListener();
-  };```
+ctrl.$onDestroy = function() {
+console.log('on destroy filter controller');
+deregisterListener();
+};```
 
 
 ##Code best practices
