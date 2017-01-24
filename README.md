@@ -29,6 +29,7 @@
 - Prefer to use ng-if to check view for conditionals that do not need to be rendered. It avoids angular form flickering. 
 - Use ng-show to elements that have active/inactive status. 
 - Create listeners acording this pattern
+- Never declare your controller in HTML tags like ```<div ng-controller="quizzesCtrl"></div>```
 
 ```//Listerner to toggle list from UI Manager
 var deregisterListener = $rootScope.$on('on-toggle-filter', function(event, args) {
