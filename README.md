@@ -43,6 +43,8 @@ console.log('on destroy filter controller');
 deregisterListener();
 };```
 
+- Do not refresh app 
+- Do not mock back buttons
 
 ##Code best practices
 - Ctrl+c and Ctrl+v whenever you want. Make sure to clean and optimize the code right after it ;) 
