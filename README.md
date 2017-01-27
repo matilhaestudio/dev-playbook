@@ -2,6 +2,11 @@
 
 ##Front End
 - Do not use Jquery with angular. Use angular filters and directives instead.
+- Do not toggle classes or remove them using document selectors or angular elements or jquery selectors like:
+``` document.querySelector('div.tabs').style.display = 'none';
+    angular.element(document.querySelector('ion-content.has-tabs')).css('bottom', 0);
+    $('body').removeClass('keyboard-open');
+```
 
 ##Mobile Apps
 - Apps should run on angular 1.x components with Ionic
