@@ -86,3 +86,11 @@ Branch criada **sempre** a partir da branch **master** para resolver problemas *
 
 ###fix-*
 Branch criada **sempre** a partir da branch **dev** para resolver problemas encontrados durante os testes de staging. Após finalizar, fazer merge com a master, criar tag aumentando a path version e fazer deploy para o ambiente de staging
+
+## Style Guides
+
+### Ruby: https://github.com/bbatsov/ruby-style-guide
+
+### Rails: https://github.com/bbatsov/rails-style-guide
+
+### AngularJS: https://github.com/johnpapa/angular-styleguide
