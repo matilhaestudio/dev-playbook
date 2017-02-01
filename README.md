@@ -69,6 +69,7 @@ deregisterListener();
 X.Y.Z (Major.Minor.Patch)
 
 **Gitflow repo**: https://github.com/nvie/gitflow
+**SourceTree documentation**: https://blog.sourcetreeapp.com/2012/08/01/smart-branching-with-sourcetree-and-git-flow/
 
 ###master 
 O **mesmo** código que está em produção ou está pronto para ir pra produção
