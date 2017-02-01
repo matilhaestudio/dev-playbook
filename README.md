@@ -13,6 +13,7 @@
 - Building process show follow this structure https://github.com/matilhaestudio/ionic-kickstart-components
 - First task of app is create all views and navigation structure with transitions, look for flow errors, and test back buttons navigation
 - Prefer to put show/hide elements functions at UIComponent and its controller. i.e show filter tab after search
+- Always deal with promise errors, set timeouts for connections, and disable loadings when something went wrong with request
 
 
 ###Controller Structure
