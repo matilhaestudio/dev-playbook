@@ -70,17 +70,17 @@ X.Y.Z (Major.Minor.Patch)
 
 **Gitflow repo**: https://github.com/nvie/gitflow
 
-#master 
+###master 
 O **mesmo** código que está em produção ou está pronto para ir pra produção
 
-#dev
+###dev
 O **mesmo** código que está em staging ou está pronto para ir para staging
 
-#feature-*
+###feature-*
 Código de desenvolvimento da feature antes dela estar pronta para ser testada. O primeiro commit dessa branch será **sempre** um commit para aumentar a minor version (ex: se estava na 0.1.13, o primeiro commit mudaria para 0.2.0). **Sempre** criar tag para esse commit
 
-#hotfix-*
+###hotfix-*
 Branch criada **sempre** a partir da branch **master** para resolver problemas **urgentes** que apareceram em produção. Após finalizar, fazer merge com a **master e dev**, criar tag aumentando a path version **somente na master** e fazer deploy para o ambiente de produção e staging
 
-#fix-*
+###fix-*
 Branch criada **sempre** a partir da branch **dev** para resolver problemas encontrados durante os testes de staging. Após finalizar, fazer merge com a master, criar tag aumentando a path version e fazer deploy para o ambiente de staging
