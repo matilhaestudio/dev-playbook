@@ -1,5 +1,22 @@
 #Matilha Dev Playbook
 
+##Our Dev workflow
+- See the git flow section
+- All changes in code must be sent through PRs
+- After revision, PRs will be merged at Dev
+- Our CI server is gonna take the last commit, run tests and deploy to Staging
+
+
+###Steps to bootstrap our project
+- Create a Trello board according our template
+- Create a Bitbucket repository inside Matilha org, make sure to let it private 
+- Integrate Bitbucket with Code Climate
+- Create a Slack channel
+- Integrate Slack with Trello
+- Integrate Slack with Bitbucket
+- Integrate Slack with Code Climate 
+
+
 ##Dev bootstrap
 - See standard gitignore files in this repo and include on new projects
 - Structure the README.md sections according our model in this repo
