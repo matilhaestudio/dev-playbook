@@ -75,6 +75,12 @@ Siga esta estrutura abaixo para organizar os estilos do projeto:
 - Evite usar tags HTML em classes com nomes muito especificos como `.featured-articles`.
 - Evite nesting dentro de media queries.
 
+## Outras considerações
+
+- Use Normalize para manter consistência entre browsers.
+- Use a estrutua HTML para ordenar os seletores do arquivo. Não vá colocando seletores um em baixo do outro.
+- Evite ter arquivos com mais de 100 linhas.
+
 
 Feito com base no playbook da Thoughtbot: 
 https://github.com/thoughtbot/guides/tree/master/style/sass
