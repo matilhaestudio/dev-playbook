@@ -22,7 +22,7 @@
 - Structure the README.md sections according our model in this repo
 
 ##Front End
-[Check out the Front end guide](https://github.com/matilhaestudio/dev-playbook/tree/master/frontend).
+[Check out the Front end guide](https://github.com/matilhaestudio/dev-playbook/blob/master/frontend/frontend-playbook.md).
 
 ##Mobile Apps
 - Apps should run on angular 1.x components with Ionic
