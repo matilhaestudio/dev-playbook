@@ -4,6 +4,7 @@
 Siga esta estrutura abaixo para organizar os estilos do projeto:
 
 ```
+|- stylesheets/main.scss // import all style files
 |- stylesheets/globals
 |  _transitions.scss
 |  _colors.scss
