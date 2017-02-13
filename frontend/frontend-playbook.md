@@ -82,5 +82,4 @@ Siga esta estrutura abaixo para organizar os estilos do projeto:
 - Evite ter arquivos com mais de 100 linhas.
 
 
-Feito com base no playbook da Thoughtbot: 
-https://github.com/thoughtbot/guides/tree/master/style/sass
+Feito com base no playbook da [Thoughtbot](https://github.com/thoughtbot/guides/)
