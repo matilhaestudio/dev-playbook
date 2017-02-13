@@ -22,11 +22,7 @@
 - Structure the README.md sections according our model in this repo
 
 ##Front End
-- Do not use Jquery with angular. Use angular filters and directives instead.
-- Do not toggle classes or remove them using document selectors or angular elements or jquery selectors like:
-```document.querySelector('div.tabs').style.display = 'none';
-    angular.element(document.querySelector('ion-content.has-tabs')).css('bottom', 0);
-    $('body').removeClass('keyboard-open');```
+[Check out the Front end guide](https://github.com/matilhaestudio/dev-playbook/tree/master/frontend).
 
 ##Mobile Apps
 - Apps should run on angular 1.x components with Ionic
