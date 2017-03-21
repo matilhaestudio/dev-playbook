@@ -21,6 +21,8 @@ Siga esta estrutura abaixo para organizar os estilos do projeto:
 |  _dashboard.scss
 |  _clients.scss
 |  _orders.scss
+|- stylesheets/vendor
+|  bootstrap.scss
 ```
 
 ## Formatação
