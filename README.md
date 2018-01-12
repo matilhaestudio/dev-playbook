@@ -44,7 +44,7 @@
 ### Ionic
 - Always use the Ionic hierarchy tag correctly i.e ion-nav-bar, ion-view, ion-content, ion-tab, ion-nav-view. Watch out! They're not that intuitive.
 - Each view should be wrapped in ion-view tag
-- Do not use absolute path do templates. Use template cache and ```./<template-name>.html````sintax
+- Do not use absolute path do templates. Use template cache and ```./<template-name>.html``` sintax
 - don't use $rootScope to set global vars. It probably will mess some state. Prefer to pass vars form one view to another using state params or using messages like $broadcast or $emit
 - modules should contain run and config functions
 - components should contain template and controller instances
